@@ -60,5 +60,5 @@ COPY dist/etc/services /opt/dionaea/etc/dionaea/services-enabled
 COPY dist/etc/ihandlers /opt/dionaea/etc/dionaea/ihandlers-enabled
 # COPY dist/etc/ihandlers /opt/dionaea/etc/dionaea/ihandlers-available
 
-CMD ["/opt/dionaea/bin/dionaea" , '-D']
+CMD ["/opt/dionaea/bin/dionaea"]
 #CMD ["/opt/dionaea/bin/dionaea", "-u", "dionaea", "-g", "dionaea", "-c", "/opt/dionaea/etc/dionaea/dionaea.cfg"]
