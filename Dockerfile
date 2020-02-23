@@ -43,7 +43,7 @@ RUN cmake -DCMAKE_INSTALL_PREFIX:PATH=/opt/dionaea ..
 RUN make && \
     make install
 
-RUN rm -rf /opt/dionaea/etc/dionaea/dionaea.conf
+RUN rm -rf /opt/dionaea/etc/dionaea/dionaea.cfg
 
 RUN rm -rf /opt/dionaea/etc/dionaea/services-enabled/*
 RUN rm -rf /opt/dionaea/etc/dionaea/services-available/*
