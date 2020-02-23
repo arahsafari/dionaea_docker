@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-# ADD /dist /root/dist
+ADD /dist /root/dist
 
 # update & upgrade
 RUN apt-get update -y && \
